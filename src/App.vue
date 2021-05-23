@@ -4,7 +4,9 @@
       <v-app>
         <ComponentSideNavigation />
         <div class="router-wrapper">
-          <router-view></router-view>
+          <div class="router-inner">
+            <router-view></router-view>
+          </div>
         </div>
       </v-app>
     </div>
@@ -35,11 +37,24 @@ export default {
 
 <style lang="scss">
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import './assets/palette.scss';
+
+#app {
+  background-color: $b-black;
+}
+
 .router-wrapper {
-  border: 1px dotted #f00;
-  height: 3000px;
-  width: 300px;
-  margin: 0 auto;
+  padding-left: 300px;
+
+  .router-inner {
+    border: 1px dotted #f00;
+    min-height: 1000px;
+    max-width: 900px;
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: $b-white;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -48,18 +63,18 @@ export default {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white;
+  background: $b-black;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: $b-pink;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: $b-pink-light;
 }
 
 @media only screen and (min-width: 900px) {
