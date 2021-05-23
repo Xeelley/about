@@ -44,7 +44,7 @@ export default {
         font-weight: bold;
         bottom: 0;
         position: absolute;
-        line-height: 50px;
+        line-height: 70px;
         z-index: 1;
         user-select: none;
     }

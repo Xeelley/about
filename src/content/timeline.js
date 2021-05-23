@@ -25,7 +25,8 @@ module.exports = [
       <br>
       <a class="a-inline" href="https://ek.ua/" target="_blank">e-katalog</a>, 
       <a class="a-inline" href="https://mtu.gov.ua/" target="_blank">MTU</a> etc...
-      <br>Check them out below!`
+      <br>
+      Check them out!`
     },
     {
       year: `Present`,

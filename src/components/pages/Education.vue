@@ -1,15 +1,12 @@
 <template>
   <div class="education-root">
 
-      <Timeline :years="years"/>
+    <ArticleHeader
+      title="Education and Career"
+      backgroundText="Where I began?"
+    ></ArticleHeader>
 
-      <v-divider></v-divider>
-      <p class="projects-arrow"><font-awesome-icon :icon="iconArrowDown" /></p>
-    
-      <ArticleHeader
-        title="Projects"
-        backgroundText="What I did?"
-      ></ArticleHeader>
+    <Timeline :years="years"/>
 
   </div>
 </template>
@@ -48,10 +45,9 @@ to   { margin-top: 0vh; }
 }
 
 .education-root {
-  padding: 100px 0;
   margin-top: 0vh;
   animation: slideup 1s ease;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .projects-arrow {

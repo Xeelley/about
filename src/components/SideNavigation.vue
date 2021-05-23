@@ -34,12 +34,28 @@
             link
           >
             <v-list-item-icon>
-              <v-icon>mdi-briefcase</v-icon>
+              <v-icon>mdi-certificate</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title>
                 <div class="router-link-text">Education &#38; Career</div>
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </router-link>
+
+        <router-link to="/projects" class="router-link">
+          <v-list-item
+            link
+          >
+            <v-list-item-icon>
+              <v-icon>mdi-briefcase</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content>
+              <v-list-item-title>
+                <div class="router-link-text">Projects</div>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
@@ -109,7 +125,7 @@
   background: $b-black-dark;
 
   .list-wrapper {
-    margin-top: calc(50vh - 350px);
+    margin-top: calc(50vh - 370px);
 
     .list-header {
       text-align: center;

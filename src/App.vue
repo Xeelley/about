@@ -51,6 +51,7 @@ export default {
     min-height: 1000px;
     max-width: 900px;
     margin: 0px auto;
+    padding: 0 20px;
     font-family: 'Montserrat', sans-serif;
     color: $b-white;
   }
