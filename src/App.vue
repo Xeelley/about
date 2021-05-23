@@ -1,10 +1,19 @@
 <template>
-  <v-app>
-    <ComponentSideNavigation />
-    <div class="router-wrapper">
-      <router-view></router-view>
+  <div class="app-root">
+    <div class="show-root">
+      <v-app>
+        <ComponentSideNavigation />
+        <div class="router-wrapper">
+          <router-view></router-view>
+        </div>
+      </v-app>
     </div>
-  </v-app>
+    
+    <div class="hide-root">
+      <h1>:(</h1>
+      <p>Sorry, but this page for desktop only :(</p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -19,17 +28,70 @@ export default {
   },
 
   data: () => ({
-    
+
   }),
 };
 </script>
 
 <style lang="scss">
 
-  .router-wrapper {
-    border: 1px dotted #f00;
-    height: 3000px;
-    width: 300px;
-    margin: 0 auto;
+.router-wrapper {
+  border: 1px dotted #f00;
+  height: 3000px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (min-width: 900px) {
+  .show-root {
+    display: block;
   }
+  .hide-root {
+    display: none;
+  }
+}
+@media only screen and (max-width: 899px) {
+  .show-root {
+    display: none;
+  }
+  .hide-root {
+    display: block;
+  }
+}
+
+.hide-root {
+  background: #0D47A1;
+  padding: 30px;
+  height: 100vh;
+
+  h1 {
+    color: white;
+    font-size: 10em;
+  }
+  p {
+    color: white;
+    font-size: 2em;
+  }
+}
+
 </style>

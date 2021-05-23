@@ -4,6 +4,7 @@
     <v-card
       class="pa-12"
       flat
+      color="transparent"
     >
       <v-card
         elevation="12"
@@ -58,7 +59,20 @@
                 </v-list-item-content>
               </v-list-item>
             </router-link>
-            
+
+            <router-link to="/achievements" class="router-link">
+              <v-list-item
+                link
+              >
+                <v-list-item-icon>
+                  <v-icon>mdi-view-dashboard</v-icon>
+                </v-list-item-icon>
+
+                <v-list-item-content>
+                  <v-list-item-title>Achievements &#38; Hobbies</v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+            </router-link>
 
           </v-list>
         </v-navigation-drawer>

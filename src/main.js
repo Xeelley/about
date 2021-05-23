@@ -10,6 +10,7 @@ Vue.config.productionTip = false
 
 import PageEducation from './components/pages/Education.vue'
 import PageAboutMe   from './components/pages/AboutMe.vue'
+import PageHobbies   from './components/pages/Hobbies.vue'
 import PageSkills    from './components/pages/Skills.vue'
 
 const router = new VueRouter({
@@ -25,6 +26,10 @@ const router = new VueRouter({
     {
       path: '/skills',
       component: PageSkills,
+    },
+    {
+      path: '/achievements',
+      component: PageHobbies,
     },
     {
       path: '/',
