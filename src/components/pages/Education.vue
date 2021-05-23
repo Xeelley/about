@@ -51,6 +51,7 @@ to   { margin-top: 0vh; }
   padding: 100px 0;
   margin-top: 0vh;
   animation: slideup 1s ease;
+  padding-bottom: 200px;
 }
 
 .projects-arrow {

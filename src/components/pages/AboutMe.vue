@@ -29,19 +29,19 @@
     <table class="contacts-table">
       <tr>
         <td class="icon-td"><font-awesome-icon :icon="iconPhone" /></td>
-        <td><a href="tel:+380635243678">+38(063)52-43-678</a></td>
+        <td><a href="tel:+380635243678" target="_blank">+38(063)52-43-678</a></td>
       </tr>
       <tr>
         <td class="icon-td"><font-awesome-icon :icon="iconMail" /></td>
-        <td><a href="mailto:i.am.hrypak@gmail.com">i.am.hrypak@gmail.com</a></td>
+        <td><a href="mailto:i.am.hrypak@gmail.com" target="_blank">i.am.hrypak@gmail.com</a></td>
       </tr>
       <tr>
         <td class="icon-td"><font-awesome-icon :icon="iconTelegram" /></td>
-        <td><a href="https://t.me/xeelley">@xeelley</a></td>
+        <td><a href="https://t.me/xeelley" target="_blank">@xeelley</a></td>
       </tr>
       <tr>
         <td class="icon-td"><font-awesome-icon :icon="iconLinkedin" /></td>
-        <td><a href="https://www.linkedin.com/in/xeelley/">Ivan Hrypak</a></td>
+        <td><a href="https://www.linkedin.com/in/xeelley/" target="_blank">Ivan Hrypak</a></td>
       </tr>
     </table>
     
@@ -88,6 +88,7 @@ to   { margin-top: 0vh; }
   padding: 100px 0;
   margin-top: 0vh;
   animation: slideup 1s ease;
+  padding-bottom: 200px;
 
   .info-box {
     text-align: justify;

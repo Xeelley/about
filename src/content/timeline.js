@@ -19,12 +19,12 @@ module.exports = [
       title: 'Node.js + Typescript = ❤️',
       text: `2016-${new Date().getFullYear()} were full of projects with many<br>
       different companies: 
-      <a class="a-inline" href="https://www.kaffit.ru/">Kaffit</a>,
-      <a class="a-inline" href="https://cryptopay.com.ua/">Cryptopay</a>,
-      <a class="a-inline" href="https://justin.ua/">Justin</a>,
+      <a class="a-inline" href="https://www.kaffit.ru/" target="_blank">Kaffit</a>,
+      <a class="a-inline" href="https://cryptopay.com.ua/" target="_blank">Cryptopay</a>,
+      <a class="a-inline" href="https://justin.ua/" target="_blank">Justin</a>,
       <br>
-      <a class="a-inline" href="https://ek.ua/">e-katalog</a>, 
-      <a class="a-inline" href="https://mtu.gov.ua/">MTU</a> etc...
+      <a class="a-inline" href="https://ek.ua/" target="_blank">e-katalog</a>, 
+      <a class="a-inline" href="https://mtu.gov.ua/" target="_blank">MTU</a> etc...
       <br>Check them out below!`
     },
     {
