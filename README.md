@@ -2,7 +2,7 @@
 Software engineer. Node.js / Typescript / Vue.
 
 🌐 Ukraine, Kiev  
-👉 [Watch CV](https://xeelley.github.io) 👈
+👉 [Watch CV](https://xeelley.github.io/about) 👈
 
 Looking for a job, feel free to contact me:  
 - ☎️ (063)52-43-678  
