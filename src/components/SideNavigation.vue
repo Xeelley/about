@@ -128,6 +128,7 @@
         font-weight: bolder;
         color: $b-pink;
         font-size: 2rem;
+        padding-top: 20px;
       }
     }
   }

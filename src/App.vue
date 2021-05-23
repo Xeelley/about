@@ -48,7 +48,6 @@ export default {
   padding-left: 300px;
 
   .router-inner {
-    border: 1px dotted #f00;
     min-height: 1000px;
     max-width: 900px;
     margin: 0px auto;
