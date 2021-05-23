@@ -1,5 +1,5 @@
 # Ivan Hrypak 
-Node.js / Typescript Developer  
+Software engineer. Node.js / Typescript / Vue.
 
 🌐 Ukraine, Kiev  
 👉 [Watch CV](https://xeelley.github.io) 👈
