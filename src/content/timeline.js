@@ -23,7 +23,8 @@ module.exports = [
       <a class="a-inline" href="https://cryptopay.com.ua/">Cryptopay</a>,
       <a class="a-inline" href="https://justin.ua/">Justin</a>,
       <br>
-      <a class="a-inline" href="https://ek.ua/">e-katalog</a> etc...
+      <a class="a-inline" href="https://ek.ua/">e-katalog</a>, 
+      <a class="a-inline" href="https://mtu.gov.ua/">MTU</a> etc...
       <br>Check them out below!`
     },
     {
