@@ -3,7 +3,7 @@
 
     <ArticleHeader
       title="About Me"
-      backgroundText="Who I Am?"
+      backgroundText="Who I am?"
     ></ArticleHeader>
 
     <table class="top-table">
