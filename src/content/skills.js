@@ -25,7 +25,7 @@ module.exports = {
         },
         {
             name: 'Typescript',
-            skill: 4.5,
+            skill: 5,
             lastUsage: 2021,
         },
     ],
