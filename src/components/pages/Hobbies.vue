@@ -10,7 +10,7 @@
         <p>- Led a team up-to 4 developers.</p>
         <p>- Developed own <a href="https://www.npmjs.com/package/ant-telegram" target="_blank">Node.js framework for Telegram bot</a> creating with 1000+ NPM downloads and 20+ production bots running on it.</p>
         <p>- Developed the technical skills of new joiners (3 Node.js junior devs).</p>
-        <p>- Worked on the project for <a href="https://mtu.gov.ua/en/" target="_blank">Ministry of Infrastructure of Ukraine</a>: road repairing works monitoring service, open for all ukrainians.</p>
+        <p>- Worked on the project for <a href="https://mtu.gov.ua/en/" target="_blank">Ministry of Infrastructure of Ukraine</a>: road repairing works monitoring bot, open for all ukrainians.</p>
       </div>
 
       <ArticleHeader

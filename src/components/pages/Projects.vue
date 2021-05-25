@@ -5,22 +5,43 @@
         backgroundText="What I did?"
     ></ArticleHeader>
 
-    <p>Comming soon...</p>
+    <div class="projects-header">
+      Some of my projects: 
+    </div>
+
+    <ProjectCart 
+      v-for="project in projects" v-bind:key="project.description"
+      :title="project.title"
+      :underline="project.underline"
+      :description="project.description"
+      :position="project.position"
+      :technologies="project.technologies"
+    />
+
+    <div class="projects-footer">
+      And more...
+    </div>
+
   </div>
 </template>
 
 <script>
 
 import ArticleHeader from '../ArticleHeader'
+import ProjectCart   from '../ProjectCart'
+
+import ContentProjects from '../../content/projects'
+
 
 export default {
   name: 'Skills',
   components: {
     ArticleHeader,
+    ProjectCart,
   },
 
   data: () => ({
-    
+    projects: ContentProjects,
   }),
 }
 
@@ -39,6 +60,18 @@ to   { margin-top: 0vh; }
   margin-top: 0vh;
   animation: slideup 1s ease;
   padding-bottom: 200px;
+}
+
+.projects-header {
+  font-size: 18px;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.projects-footer {
+  font-size: 18px;
+  padding: 10px 0;
+  text-align: center;
 }
 
 </style>

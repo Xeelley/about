@@ -12,7 +12,7 @@
         ></span>
     </template>
     <div class="py-4">
-        <h2 :class="`headline font-weight-light mb-4 pink--text`">{{year.title}}</h2>
+        <h2 :class="`headline font-weight-light mb-4 pink--text`">{{ year.title }}</h2>
         <div v-html="year.text"></div>
     </div>
     </v-timeline-item>

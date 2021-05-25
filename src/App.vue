@@ -42,6 +42,10 @@ export default {
 
 #app {
   background-color: $b-black;
+
+  * {
+    user-select: none;
+  }
 }
 
 .router-wrapper {

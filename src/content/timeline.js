@@ -24,7 +24,7 @@ module.exports = [
       <a class="a-inline" href="https://justin.ua/" target="_blank">Justin</a>,
       <br>
       <a class="a-inline" href="https://ek.ua/" target="_blank">e-katalog</a>, 
-      <a class="a-inline" href="https://mtu.gov.ua/" target="_blank">MTU</a> etc...
+      <a class="a-inline" href="https://mtu.gov.ua/" target="_blank">MIU</a> etc...
       <br>
       Check them out!`
     },

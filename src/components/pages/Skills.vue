@@ -77,7 +77,7 @@
       <v-row>
         <v-col sm="6">
           <RatingTable
-            title="DevTools &#38; Environment"
+            title="DevTools and Environment"
             :rows="skills.devtools"
             float="left"
           />
@@ -118,7 +118,7 @@
         </v-col>
         <v-col sm="6">
           <RatingTable
-            title="Currently study..."
+            title="Also..."
             :rows="skills.also"
             float="left"
           />
