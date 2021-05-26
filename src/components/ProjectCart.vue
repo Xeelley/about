@@ -39,6 +39,7 @@ export default {
 
   table {
     border-left: 1px solid $b-white;
+    width: 100%;
   }
 
   td {
