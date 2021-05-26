@@ -99,7 +99,7 @@ module.exports = [
         or in the nearest terminal by cash.<br>
         <a class="project-in-link" href="https://cryptopay.com.ua">cryptopay.com.ua</a>`,
         position: 'Full stack',
-        technologies: 'Angular 2, Node.js, Exress, Postgres'
+        technologies: 'Angular 2, Node.js, Express, Postgres'
     },
     {
         title: 'Plus for Trello',
