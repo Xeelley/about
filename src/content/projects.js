@@ -1,15 +1,23 @@
 module.exports = [
     {
+        title: 'IBOX',
+        underline: 'Q2 2021 - Present',
+        description: `<a class="project-in-link" href="https://www.ibox.ua/">IBOX™</a> - the biggest instant payments company in Ukraine! Thousands of terminals in Ukraine: 
+        top up your phone, pay a utility bill or a fine, or transfer funds to another account in any terminal right next to your house or on the site!`,
+        position: 'Software Engineer',
+        technologies: 'Node.js + Typescript, MySQL, Angular 10+, Express, Jenkins, RabbitMQ, WS',
+    },
+    {
         title: 'Kaffit Assistant',
         underline: 'Q3-Q4 2019, Kaffit™',
         description: `Personal bot-assiatant for Kaffit™ coffee machines. Manage up to 3 your machines by youself or gain access to anyone else: remote enabling / disabling, 
-        remote coffee making proccess, machine options changing, instant help with NLU-based search from FAQ base etc. Control panel with wide coverage for manufacturer.<br>
+        remote beverages making proccess, device options managment, instant help with NLU-based responces etc. Control panel with wide coverage for manufacturer.<br>
         <a class="project-in-link" href="https://www.kaffit.ru/">Kaffit™</a>,
         <a class="project-in-link" href="https://t.me/Kaffitbot">Telegram Assistant</a>,
         <a class="project-in-link" href="https://www.facebook.com/Kaffitcom/">Facebook Messenger Assistant</a>,
         <a class="project-in-link" href="viber://pa?chatURI=Kaffitbot">Viber Assistant</a>`,
-        position: 'Full Stack developer (Lead)',
-        technologies: 'Node.js, Typescript, Postgres, Redis, Docker, Express, Vue, Rabbit, Microservices, Dialogflow',
+        position: 'Full Stack Developer (Lead)',
+        technologies: 'Node.js + Typescript, Postgres, Redis, Docker, Express, Vue, RabbitMQ, Microservices, Dialogflow',
     },
     {
         title: 'Justin',
@@ -18,7 +26,7 @@ module.exports = [
         <a class="project-in-link" href="https://justin.ua/">Justin™</a>,
         <a class="project-in-link" href="https://t.me/justinpostservice_bot">Justin Bot</a>`,
         position: 'Node.js Developer',
-        technologies: 'Node.js, REST API, MongoDB, Vue, Docker, Chai',
+        technologies: 'Node.js + Typescript, REST API, MongoDB, Vue, Docker, Chai',
     },
     {
         title: 'PoiskAutoBot & NedvizhkaBot bot group',
@@ -32,7 +40,7 @@ module.exports = [
         <a class="project-in-link" href="https://t.me/KatalogZabudovnikivBot">@KatalogZabudovnikivBot</a>,
         <a class="project-in-link" href="https://t.me/OtchetCarfaxBot">@OtchetCarfaxBot</a> ...`,
         position: 'Full Stack Developer',
-        technologies: 'Node.js, Typescript, Docker, REST API, Telegram API, Postgres, MongoDB, Vue, Redis',
+        technologies: 'Node.js + Typescript, Docker, REST API, Telegram API, Postgres, MongoDB, Vue, Redis',
     },
     {
         title: 'E-transport',
@@ -44,8 +52,8 @@ module.exports = [
         <a class="project-in-link" href="https://t.me/Etransportgovua_bot">E-transport Telegram bot</a>,
         <a class="project-in-link" href="https://www.unian.net/economics/transport/na-pravitelstvennom-transportnom-portale-poyavilsya-elektronnyy-kabinet-moryaka-i-ryad-novyh-servisov-novosti-ukraina-10970537.html">
         Release news (source: UNIAN)</a>`,
-        position: 'Node.js developer',
-        technologies: 'Node.js, Typescript, Docker, REST API, Telegram API, MongoDB, Mocha+Chai'
+        position: 'Node.js Developer',
+        technologies: 'Node.js + Typescript, Docker, REST API, Telegram API, MongoDB, Mocha+Chai'
     },
     {
         title: 'Limagrain',
@@ -53,7 +61,7 @@ module.exports = [
         description: `Control panel for Limagrain™ with customer features provided via Telegram: user analytics, products & services viewer, customer support tools.<br>
         <a class="project-in-link" href="https://lgseeds.com.ua/">Limagrain</a>,
         <a class="project-in-link" href="https://t.me/Limagrain_Ukraine_bot">Limagrain Telegram</a>`,
-        position: 'Full stack developer',
+        position: 'Full Stack Developer',
         technologies: 'Node.js, express, Vue, MongoDB, Telegram API',
     },
     {
@@ -61,7 +69,7 @@ module.exports = [
         underline: 'Q4 2019 - Q1 2020',
         description: `Messenger for customer support poprouses for internal company usage. Include integration with AmoCRM. System provide interfaces 
         for customers in all popular existent messengers: Telegram / Viber / Messenger or web. Support interface and control panel both are web-oriented.`,
-        position: 'Lead developer',
+        position: 'Lead Developer',
         technologies: 'Node.js, Typescript, socket.io, RabbitMQ, Microservices, Vue, Postgres, Redis', 
     },
     {
@@ -71,7 +79,7 @@ module.exports = [
         Detail statistic & anaylytic for manufacturers and providers. Global control panel with all data for admins.<br>
         <a class="project-in-link" href="https://luxel.ua/">luxel.ua</a>, 
         <a class="project-in-link" href="http://t.me/luxel_bot">Telegram Bot</a>`,
-        position: 'Full stack developer',
+        position: 'Full Stack Developer',
         technologies: 'Node.js, Express, Vue, Mongo, Telegram API',
     },
     {
@@ -81,7 +89,7 @@ module.exports = [
         reserve tour you like from your favorite messenger.<br>
         <a class="project-in-link" href="http://www.russ-express.de/">Russ-Express.de</a>, 
         <a class="project-in-link" href="https://www.facebook.com/russexpress/">Russ-Express Messenger Bot</a>`,
-        position: 'Node.js developer',
+        position: 'Node.js Developer',
         technologies: 'Node.js, Facebook API, MongoDB, Express, Vue',
     },
     {
@@ -89,16 +97,16 @@ module.exports = [
         underline: '2017, E-Katalog',
         description: `All what you need in your messenger: product search, full info about products, cart & orders. Telegram and Viber support.<br>
         <a class="project-in-link" href="https://ek.ua/">E-kalalog</a>`,
-        position: 'Node.js developer',
+        position: 'Node.js Developer',
         technologies: 'Node.js, Telegram / Viber API, MongoDB',
     },
     {
         title: 'Cryptopay.com.ua',
         underline: '2017, Cryptopay',
-        description: `Web service for cryptocurrency exchange with street terminals partnership. Elixir and Bitcoin are supported. Buy & sell cryptocurrency right in your browser or phone by card,
+        description: `Web service for cryptocurrency exchange with instant payments terminals partnership. Elixir & Bitcoin for everyone! Buy & sell cryptocurrency right in your browser or phone by card,
         or in the nearest terminal by cash.<br>
         <a class="project-in-link" href="https://cryptopay.com.ua">cryptopay.com.ua</a>`,
-        position: 'Full stack',
+        position: 'Full Stack Developer',
         technologies: 'Angular 2, Node.js, Express, Postgres'
     },
     {
@@ -108,7 +116,7 @@ module.exports = [
         mentions and much more! Part of new features connected to own external system.<br>
         <a class="project-in-link" href="https://chrome.google.com/webstore/detail/plus-for-trello-time-trac/gjjpophepkbhejnglcmkdnncmaanojkf">Chrome Web Store: Plus for Trello</a>`,
         position: 'JS developer',
-        technologies: `JS, Chrome extentions, REST API, WS, MySQL`,
+        technologies: `JS, Chrome extentions API, REST API, WS, MySQL`,
     },
 
 ]

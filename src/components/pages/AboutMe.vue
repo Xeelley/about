@@ -13,14 +13,14 @@
       </tr>
       <tr>
         <td class="icon-td"><font-awesome-icon :icon="iconGlobe" /></td>
-        <td>Ukraine, Kiev</td>
+        <td>Ukraine, Kyiv</td>
       </tr>
     </table>
     <br><br>
     <p class="info-box">
-      Hi there, I'm a full stack developer with <span class="accent-span">{{years}} years+ experience</span> 
+      Full stack software engineer with <span class="accent-span">{{years}} years+ experience here!</span> 
       developing different projects (web mostly).
-      I like what I do 'cause I <span class="accent-span">enjoy</span> building <span class="accent-span">cool</span> things that everyone
+      I like what I do 'cause I <span class="accent-span">enjoy</span> building <span class="accent-span">cool</span> things that millions of people
       can see. It's more like lifestyle, not just a job.
       <br><br><br>
       Feel free to contact me with any question:

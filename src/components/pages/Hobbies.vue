@@ -1,70 +1,75 @@
 <template>
   <div class="hobbies-root">
 
-      <ArticleHeader
-        title="Achievements"
-        backgroundText="What I did?"
-      ></ArticleHeader>
+    <ArticleHeader
+      title="Achievements"
+      backgroundText="What I did?"
+    ></ArticleHeader>
 
-      <div class="info-box">
-        <p>- Led a team up-to 4 developers.</p>
-        <p>- Developed own <a href="https://www.npmjs.com/package/ant-telegram" target="_blank">Node.js framework for Telegram bot</a> creating with 1000+ NPM downloads and 20+ production bots running on it.</p>
-        <p>- Developed the technical skills of new joiners (3 Node.js junior devs).</p>
-        <p>- Worked on the project for <a href="https://mtu.gov.ua/en/" target="_blank">Ministry of Infrastructure of Ukraine</a>: road repairing works monitoring bot, open for all ukrainians.</p>
-      </div>
+    <div class="info-box">
+      <p>- Led a team up-to 4 developers.</p>
+      <p>- Developed own <a href="https://www.npmjs.com/package/ant-telegram" target="_blank">Node.js framework for Telegram Bot API</a> with 3000+ NPM downloads 
+      and 20+ production bots running on it.</p>
+      <p>- Developed the technical skills of new joiners (Node.js junior devs).</p>
+      <p>- Worked on the project for <a href="https://mtu.gov.ua/en/" target="_blank">Ministry of Communuties, Territories and
+      Infrastructure Development of Ukraine</a>: road repairing works monitoring bot, available for all ukrainians.</p>
+      <p>- Developed and integrated new functional into informational system of biggest instant payment company in Ukraine - <a href="https://ibox.ua/">IBOX</a>. 
+      New possibilities for customers helped company to increase income up to 10% for a year.</p>
+      <p>- Worked for 2 years under PCI DSS security standards.</p>
+    </div>
 
-      <ArticleHeader
-        title="Hobbies"
-        backgroundText="What I like?"
-      ></ArticleHeader>
+    <ArticleHeader
+      title="Hobbies"
+      backgroundText="What I like?"
+    ></ArticleHeader>
 
-      <div class="hobby-showcase">
-        <v-row>
-          <v-col sm="3">
-            <HobbyCart
-              title="Gastro<br>Traveling"
-              :icon="iconFood"
-            />
-          </v-col>
-          <v-col sm="3">
-            <HobbyCart
-              title="8-Ball<br>Snooker"
-              :icon="iconBall"
-            />
-          </v-col>
-          <v-col sm="3">
-            <HobbyCart
-              title="Video<br>Games"
-              :icon="iconGamepad"
-            />
-          </v-col>
-          <v-col sm="3">
-            <HobbyCart
-              title="Movies"
-              :icon="iconMovie"
-            />
-          </v-col>
-        </v-row>
-        
-        <v-row>
-          <v-col sm="3">
-          </v-col>
-          <v-col sm="3">
-            <HobbyCart
-              title="Tabletop<br>Games"
-              :icon="iconChess"
-            />
-          </v-col>
-          <v-col sm="3">
-            <HobbyCart
-              title="Cooking"
-              :icon="iconCooking"
-            />
-          </v-col>
-          <v-col sm="3">
-          </v-col>
-        </v-row>
-      </div>
+    <div class="hobby-showcase">
+      <v-row>
+        <v-col sm="3">
+          <HobbyCart
+            title="Gastro<br>Traveling"
+            :icon="iconFood"
+          />
+        </v-col>
+        <v-col sm="3">
+          <HobbyCart
+            title="8-Ball<br>Snooker"
+            :icon="iconBall"
+          />
+        </v-col>
+        <v-col sm="3">
+          <HobbyCart
+            title="Video<br>Games"
+            :icon="iconGamepad"
+          />
+        </v-col>
+        <v-col sm="3">
+          <HobbyCart
+            title="Movies"
+            :icon="iconMovie"
+          />
+        </v-col>
+      </v-row>
+      
+      <v-row>
+        <v-col sm="3">
+        </v-col>
+        <v-col sm="3">
+          <HobbyCart
+            title="Tabletop<br>Games"
+            :icon="iconChess"
+          />
+        </v-col>
+        <v-col sm="3">
+          <HobbyCart
+            title="Cooking"
+            :icon="iconCooking"
+          />
+        </v-col>
+        <v-col sm="3">
+        </v-col>
+      </v-row>
+    </div>
     
   </div>
 </template>

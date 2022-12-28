@@ -1,129 +1,146 @@
 <template>
   <div class="skills-root">
 
-      <ArticleHeader
-        title="Skills"
-        backgroundText="What I can?"
-      ></ArticleHeader>
+    <ArticleHeader
+      title="Skills"
+      backgroundText="What I can?"
+    ></ArticleHeader>
 
-      <v-row>
-        <v-col sm="6">
-          <RatingTable
-            title="Languages"
-            :rows="skills.languages"
-            float="left" no_last_usage_header="true"
-          />
-        </v-col>
-        <v-col sm="6">
-          <RatingTable
-            title="Programming languages"
-            :rows="skills.programming_languages"
-            float="left"
-          />
-        </v-col>
-      </v-row>
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="Languages"
+          :rows="skills.languages"
+          float="left" no_last_usage_header="true"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Programming languages"
+          :rows="skills.programming_languages"
+          float="left"
+        />
+      </v-col>
+    </v-row>
 
-      <v-row>
-        <v-col sm="6">
-          <RatingTable
-            title="Backend"
-            :rows="skills.backend"
-            float="left"
-          />
-        </v-col>
-        <v-col sm="6">
-          <RatingTable
-            title="Frontend"
-            :rows="skills.frontend"
-            float="left"
-          />
-        </v-col>
-      </v-row>
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="Backend"
+          :rows="skills.backend"
+          float="left"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Frontend"
+          :rows="skills.frontend"
+          float="left"
+        />
+      </v-col>
+    </v-row>
 
-      <v-row>
-        <v-col sm="6">
-          <RatingTable
-            title="Databases"
-            :rows="skills.databases"
-            float="left"
-          />
-        </v-col>
-        <v-col sm="6">
-          <RatingTable
-            title="Cloud-based"
-            :rows="skills.cloud"
-            float="left"
-          />
-        </v-col>
-      </v-row>
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="Databases"
+          :rows="skills.databases"
+          float="left"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Cloud-based"
+          :rows="skills.cloud"
+          float="left"
+        />
+      </v-col>
+    </v-row>
 
-      <v-row>
-        <v-col sm="6">
-          <RatingTable
-            title="Hybrid"
-            :rows="skills.hybrid"
-            float="left"
-          />
-        </v-col>
-        <v-col sm="6">
-          <RatingTable
-            title="Testing"
-            :rows="skills.testing"
-            float="left"
-          />
-        </v-col>
-      </v-row>
-      
-      <v-row>
-        <v-col sm="6">
-          <RatingTable
-            title="DevTools and Environment"
-            :rows="skills.devtools"
-            float="left"
-          />
-        </v-col>
-        <v-col sm="6">
-          <RatingTable
-            title="Technologies"
-            :rows="skills.technologies"
-            float="left"
-          />
-        </v-col>
-      </v-row>
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="Hybrid"
+          :rows="skills.hybrid"
+          float="left"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Testing"
+          :rows="skills.testing"
+          float="left"
+        />
+      </v-col>
+    </v-row>
+    
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="DevTools and Environment"
+          :rows="skills.devtools"
+          float="left"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Technologies"
+          :rows="skills.technologies"
+          float="left"
+        />
+      </v-col>
+    </v-row>
 
-      <v-row>
-        <v-col sm="6">
-          <RatingTable
-            title="Platforms"
-            :rows="skills.platforms"
-            float="left"
-          />
-        </v-col>
-        <v-col sm="6">
-          <RatingTable
-            title="Deployment"
-            :rows="skills.deployment"
-            float="left"
-          />
-        </v-col>
-      </v-row>
-      
-      <v-row>
-        <v-col sm="6">
-          <RatingTable
-            title="Software"
-            :rows="skills.office"
-            float="left"
-          />
-        </v-col>
-        <v-col sm="6">
-          <RatingTable
-            title="Also..."
-            :rows="skills.also"
-            float="left"
-          />
-        </v-col>
-      </v-row>
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="Security"
+          :rows="skills.security"
+          float="left"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Management"
+          :rows="skills.management"
+          float="left"
+        />
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="Platforms"
+          :rows="skills.platforms"
+          float="left"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Deployment"
+          :rows="skills.deployment"
+          float="left"
+        />
+      </v-col>
+    </v-row>
+    
+    <v-row>
+      <v-col sm="6">
+        <RatingTable
+          title="Software"
+          :rows="skills.office"
+          float="left"
+        />
+      </v-col>
+      <v-col sm="6">
+        <RatingTable
+          title="Architecture"
+          :rows="skills.architectures"
+          float="left"
+        />
+      </v-col>
+    </v-row>
       
   </div>
 </template>

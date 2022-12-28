@@ -1,13 +1,13 @@
 <template>
-    <div class="project-cart-wrapper">
-        <table>
-          <tr class="header"><td>{{ title }}</td></tr>
-          <tr class="underline"><td><font-awesome-icon :icon="iconCalendar" class="underline-label" />{{ underline }}</td></tr>
-          <tr class="description"><td v-html="description"></td></tr>
-          <tr class="position"><td><span class="position-label">Position:</span> {{ position }}</td></tr>
-          <tr class="technologies"><td><span class="technologies-label">Core technologies:</span> {{ technologies }}</td></tr>
-        </table>
-    </div>
+  <div class="project-cart-wrapper">
+    <table>
+      <tr class="header"><td>{{ title }}</td></tr>
+      <tr class="underline"><td><font-awesome-icon :icon="iconCalendar" class="underline-label" />{{ underline }}</td></tr>
+      <tr class="description"><td v-html="description"></td></tr>
+      <tr class="position"><td><span class="position-label">Position:</span> {{ position }}</td></tr>
+      <tr class="technologies"><td><span class="technologies-label">Core technologies:</span> {{ technologies }}</td></tr>
+    </table>
+  </div>
 </template>
 
 

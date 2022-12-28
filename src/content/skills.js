@@ -19,27 +19,36 @@ module.exports = {
     ],
     programming_languages: [
         {
-            name: 'Javascript (ECMA 11)',
+            name: 'Javascript (ECMA 11+)',
             skill: 5,
-            lastUsage: 2021,
+            lastUsage: 2022,
         },
         {
             name: 'Typescript',
             skill: 5,
-            lastUsage: 2021,
+            lastUsage: 2022,
+        },
+        {
+            name: 'Python',
+            skill: 3,
+            lastUsage: 2020,
+        },
+        {
+            name: 'Rust',
+            skill: 2.5,
+            lastUsage: 2022,
         },
     ],
-
     backend: [
         {
             name: 'Node.js',
             skill: 5,
-            lastUsage: 2021,
+            lastUsage: 2022,
         },
         {
             name: 'ExpressJS / HAPI',
             skill: 5,
-            lastUsage: 2021,
+            lastUsage: 2022,
         },
         {
             name: 'NestJS',
@@ -55,16 +64,10 @@ module.exports = {
         },
         {
             name: 'Angular 2+',
-            skill: 3.5,
-            lastUsage: 2019,
-        },
-        {
-            name: 'HTML5 / CSS3 / jQuery',
-            skill: 5,
-            lastUsage: 2021,
+            skill: 4.5,
+            lastUsage: 2022,
         },
     ],
-    
     databases: [
         {
             name: 'MongoDB',
@@ -73,8 +76,8 @@ module.exports = {
         },
         {
             name: 'Postgres / MySQL',
-            skill: 4,
-            lastUsage: 2020,
+            skill: 5,
+            lastUsage: 2022,
         },
         {
             name: 'Redis',
@@ -94,7 +97,6 @@ module.exports = {
             lastUsage: 2019,
         },
     ],
-
     hybrid: [
         {
             name: 'Ionic 2+',
@@ -113,35 +115,39 @@ module.exports = {
             skill: 3,
             lastUsage: 2020,
         },
-    ],
-
-    devtools: [
         {
-            name: 'Git',
+            name: 'AutoCannon',
             skill: 4,
             lastUsage: 2021,
         },
+    ],
+    devtools: [
         {
-            name: 'Jira / Confluence',
-            skill: 3.5,
-            lastUsage: 2020,
+            name: 'Gitlab CI/CD',
+            skill: 4,
+            lastUsage: 2021,
         },
         {
             name: 'Docker',
             skill: 3.5,
             lastUsage: 2020,
         },
+        {
+            name: 'Jenkins',
+            skill: 4,
+            lastUsage: 2022,
+        },
     ],
     technologies: [
         {
             name: 'WebSockets',
             skill: 4.5,
-            lastUsage: 2020,
+            lastUsage: 2022,
         },
         {
             name: 'RESTful API',
             skill: 5,
-            lastUsage: 2021,
+            lastUsage: 2022,
         },
         {
             name: 'GraphQL',
@@ -150,11 +156,10 @@ module.exports = {
         },
         {
             name: 'Brokers (RabbitMQ / Kafka)',
-            skill: 3,
-            lastUsage: 2020,
+            skill: 4,
+            lastUsage: 2022,
         },
     ],
-
     platforms: [
         {
             name: 'Telegram / Viber API',
@@ -167,7 +172,7 @@ module.exports = {
             lastUsage: 2020,
         },
         {
-            name: 'Chrome Extensions',
+            name: 'Chromium',
             skill: 4,
             lastUsage: 2019,
         },
@@ -184,29 +189,42 @@ module.exports = {
             lastUsage: 2021,
         },
     ],
-
+    security: [
+        {
+            name: 'PCI DSS',
+            skill: 4,
+            lastUsage: 2022,
+        },
+    ],
+    management: [
+        {
+            name: 'Jira / Confluence',
+            skill: 4.5,
+            lastUsage: 2022, 
+        },
+    ],
     office: [
         {
             name: 'MS Word / Excel',
             skill: 5,
-            lastUsage: 2021,
+            lastUsage: 2022,
         },
         {
             name: 'Adobe Photoshop',
             skill: 3.5,
-            lastUsage: 2021,
+            lastUsage: 2022,
         },
     ],
-    also: [
+    architectures: [
         {
-            name: 'Golang',
-            skill: 2.5,
-            lastUsage: '',
+            name: 'Microservices',
+            skill: 4.5,
+            lastUsage: 2022,
         },
         {
-            name: 'Scala',
-            skill: 2.5,
-            lastUsage: '',
+            name: 'Event-driven',
+            skill: 5,
+            lastUsage: 2022,
         },
     ],
 }

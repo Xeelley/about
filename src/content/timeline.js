@@ -7,26 +7,42 @@ module.exports = [
     {
       year: 2016,
       title: 'Let\'s begin!',
-      text: 'First project and start of long developer journey,<br>full of different projects'
+      text: 'First project and start of long developer journey full of different projects'
+    },
+    {
+      year: 2019,
+      title: 'Node.js + Typescript = ❤️',
+      text: `2016-2019 were full of complex projects with many different companies as outsource developer: 
+      <a class="a-inline" href="https://www.cryptopay.com.ua/" target="_blank">Cryptopay.com.ua</a>,
+      <a class="a-inline" href="https://www.kaffit.ru/" target="_blank">Kaffit</a>,
+      <a class="a-inline" href="https://ek.ua/" target="_blank">e-katalog</a> etc...
+      <br>
+      Check them out!`,
     },
     {
       year: 2020,
       title: 'Cherkasy State Technological University',
-      text: '2015-2020, Cherkasy, Ukraine<br>Speciality: Computer Sciences<br>Educational program: Engineering <br>Information Technologies<br>Diploma: B20 №189201'
+      text: `Bachelor's degree
+      <br>Speciality: Computer Sciences
+      <br>Educational program: Software Engineering
+      <br>Diploma: B20 №189201`
     },
     {
-      year: new Date().getFullYear(),
-      title: 'Node.js + Typescript = ❤️',
-      text: `2016-${new Date().getFullYear()} were full of projects with many<br>
-      different companies: 
-      <a class="a-inline" href="https://www.kaffit.ru/" target="_blank">Kaffit</a>,
-      <a class="a-inline" href="https://cryptopay.com.ua/" target="_blank">Cryptopay</a>,
-      <a class="a-inline" href="https://justin.ua/" target="_blank">Justin</a>,
-      <br>
-      <a class="a-inline" href="https://ek.ua/" target="_blank">e-katalog</a>, 
-      <a class="a-inline" href="https://mtu.gov.ua/" target="_blank">MIU</a> etc...
-      <br>
-      Check them out!`
+      year: 2021,
+      title: 'inbot.pro',
+      text: `2019-2021
+      <br>Position: Software Engineer (Remote)
+      <br>Messengers-based and WEB solutions for famous companies like
+      <a class="a-inline" href="https://justin.ua/" target="_blank">Justin</a> or even for
+      <a class="a-inline" href="https://mtu.gov.ua/" target="_blank">Ministry of Communuties, Territories and
+      Infrastructure Development of Ukraine</a>`,
+    },
+    {
+      year: 2022,
+      title: 'IBOX',
+      text: `2021-2022
+      <br>Position: Software Engineer (Central Office, Kyiv, Ukraine)
+      <br>New features development & integration in the biggest instant payment company in Ukraine.`
     },
     {
       year: `Present`,
