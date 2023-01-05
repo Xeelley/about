@@ -1,11 +1,15 @@
-:: b/master sould be built before:
+:: b/master should be built before:
+::
 :: - npm run build
-:: 
-:: b/master should be pushed to origin (/dist included):
-:: - git push
- 
+::
+
 git checkout master 
-cp ./dist/index.html ./dist/404.html
+cd dist
+copy index.html 404.html /y
+cd ..
+git add .
+git commit -m "rebuild"
+git push
 git subtree split --prefix dist -b gh-pages 
 git push -f origin gh-pages:gh-pages 
 git branch -D gh-pages 
