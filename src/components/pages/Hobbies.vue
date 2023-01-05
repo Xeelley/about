@@ -11,10 +11,10 @@
       <p>- Developed own <a href="https://www.npmjs.com/package/ant-telegram" target="_blank">Node.js framework for Telegram Bot API</a> with 3000+ NPM downloads 
       and 20+ production bots running on it.</p>
       <p>- Developed the technical skills of new joiners (Node.js junior devs).</p>
-      <p>- Worked on the project for <a href="https://mtu.gov.ua/en/" target="_blank">Ministry of Communuties, Territories and
+      <p>- Worked on the project for the <a href="https://mtu.gov.ua/en/" target="_blank">Ministry of Communuties, Territories and
       Infrastructure Development of Ukraine</a>: road repairing works monitoring bot, available for all ukrainians.</p>
-      <p>- Developed and integrated new functional into informational system of biggest instant payment company in Ukraine - <a href="https://ibox.ua/">IBOX</a>. 
-      New possibilities for customers helped company to increase income up to 10% for a year.</p>
+      <p>- Developed and integrated new functionality into an informational system of the biggest instant payment company in Ukraine - <a href="https://ibox.ua/">IBOX</a>. 
+      New possibilities for customers helped the company to increase income up to 10% for a year.</p>
       <p>- Worked for 2 years under PCI DSS security standards.</p>
     </div>
 
@@ -33,7 +33,7 @@
         </v-col>
         <v-col sm="3">
           <HobbyCart
-            title="8-Ball<br>Snooker"
+            title="8-Ball &#x26;<br>Snooker"
             :icon="iconBall"
           />
         </v-col>

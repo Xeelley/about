@@ -18,12 +18,12 @@
     </table>
     <br><br>
     <p class="info-box">
-      Full stack software engineer with <span class="accent-span">{{years}} years+ experience here!</span> 
+      Full stack software engineer with <span class="accent-span">{{years}} years+ of experience here!</span> 
       developing different projects (web mostly).
       I like what I do 'cause I <span class="accent-span">enjoy</span> building <span class="accent-span">cool</span> things that millions of people
-      can see. It's more like lifestyle, not just a job.
+      can see. It's more like a lifestyle, not just a job.
       <br><br><br>
-      Feel free to contact me with any question:
+      Feel free to contact me with any questions:
     </p>
 
     <table class="contacts-table">
@@ -32,16 +32,16 @@
         <td><a href="tel:+380635243678" target="_blank">+38(063)52-43-678</a></td>
       </tr>
       <tr>
-        <td class="icon-td"><font-awesome-icon :icon="iconMail" /></td>
-        <td><a href="mailto:i.am.hrypak@gmail.com" target="_blank">i.am.hrypak@gmail.com</a></td>
-      </tr>
-      <tr>
         <td class="icon-td"><font-awesome-icon :icon="iconTelegram" /></td>
         <td><a href="https://t.me/xeelley" target="_blank">@xeelley</a></td>
       </tr>
       <tr>
         <td class="icon-td"><font-awesome-icon :icon="iconLinkedin" /></td>
         <td><a href="https://www.linkedin.com/in/xeelley/" target="_blank">Ivan Hrypak</a></td>
+      </tr>
+      <tr>
+        <td class="icon-td"><font-awesome-icon :icon="iconMail" /></td>
+        <td><a href="mailto:i.am.hrypak@gmail.com" target="_blank">i.am.hrypak@gmail.com</a></td>
       </tr>
     </table>
     
