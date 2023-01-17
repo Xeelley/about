@@ -18,7 +18,7 @@
     </table>
     <br><br>
     <p class="info-box">
-      Full stack software engineer with <span class="accent-span">{{years}} years+ of experience here!</span> 
+      Full stack software engineer with <span class="accent-span">5 years+ of experience here!</span> 
       developing different projects (web mostly).
       I like what I do 'cause I <span class="accent-span">enjoy</span> building <span class="accent-span">cool</span> things that millions of people
       can see. It's more like a lifestyle, not just a job.
