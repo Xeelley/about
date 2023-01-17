@@ -4,7 +4,7 @@ module.exports = {
         {
             name: 'English',
             skill: 3.5,
-            lastUsage: 'Upper interm.',
+            lastUsage: 'B1-B2',
         },
         {
             name: 'Russian',
@@ -87,14 +87,14 @@ module.exports = {
     ],
     cloud: [
         {
-            name: 'GoogleCloud',
-            skill: 3.5,
-            lastUsage: 2020,
+            name: 'AWS (Lambda)',
+            skill: 3,
+            lastUsage: 2021,
         },
         {
-            name: 'AWS',
+            name: 'GoogleCloud',
             skill: 3,
-            lastUsage: 2019,
+            lastUsage: 2020,
         },
     ],
     hybrid: [
@@ -106,14 +106,14 @@ module.exports = {
     ],
     testing: [
         {
-            name: 'Mocha',
+            name: 'Mocha + Chai',
             skill: 3,
             lastUsage: 2020,
         },
         {
-            name: 'Chai',
-            skill: 3,
-            lastUsage: 2020,
+            name: 'Jest',
+            skill: 3.5,
+            lastUsage: 2021,
         },
         {
             name: 'AutoCannon',
@@ -124,7 +124,7 @@ module.exports = {
     devtools: [
         {
             name: 'Gitlab CI/CD',
-            skill: 4,
+            skill: 3.5,
             lastUsage: 2021,
         },
         {
@@ -223,7 +223,7 @@ module.exports = {
         },
         {
             name: 'Event-driven',
-            skill: 5,
+            skill: 4.5,
             lastUsage: 2022,
         },
     ],
